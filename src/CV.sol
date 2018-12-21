@@ -1,7 +1,7 @@
 pragma solidity ^0.5.1;
 
-import 'CVInterface.sol';
-import 'Ownable.sol';
+import 'src/CVInterface.sol';
+import 'lib/Ownable.sol';
 
 contract CV is CVInterface, Ownable {
 }
